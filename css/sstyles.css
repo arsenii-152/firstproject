@@ -1,0 +1,37 @@
+@import "reset.css";
+@import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">);
+@import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">);
+@import url(<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">);
+body {
+  background-color: #003161;
+  }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  white-space: pre-line;
+  margin-top: -70px;
+  margin-bottom: 40px;
+}
+.spp {
+  color: #003161;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.spps {
+  color: white;
+}
+p {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 36px;
+  width: 50%;
+  line-height: 50px;
+}
+img  {
+  position: relative;
+  left: 790px;
+  bottom: 542px;
+  width: 50%;
+}
