@@ -5,6 +5,8 @@
 
 body {
       background-color: #003161;
+      width: 1440px;
+      height: 8789px;
       }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +40,7 @@ p, h1 {
 img  {
         position: relative;
         left: 790px;
-        width: 50%;
+        width: 55%;
       }
 /*общие настройки для тегов*/
 .stp h1 {
@@ -63,13 +65,11 @@ img  {
 .firstadv h1  {
   transform: translateY(-521px);
 }
-
 .firstadv p {
   transform: translateY(-523px);
 }
-
 .firstadv img {
-  transform: translateY(-783px);
+  transform: translateY(-824px);
 }
 .stripefirst {
   background-color: white;
@@ -101,13 +101,13 @@ img  {
 .stripesecond {
   background-color: white;
   width: 610px;
-  transform: translateY(-210px);
+  transform: translateY(-251px);
 }
 .secondimg {
-  transform: translateY(-630px);
+  transform: translateY(-671px);
 }
 .secondadv p {
-  transform: translateY(-210px);
+  transform: translateY(-251px);
 }
 .secondadv {
   transform: translateY(-576px);
@@ -115,13 +115,13 @@ img  {
 /* второй совет*/
 
 .thirdadv p {
-  transform: translateY(-1207px);
+  transform: translateY(-1248px);
 }
 .stripethird {
   background-color: white;
   width: 800px;
   height: 50px;
-  transform: translateY(-1210px);
+  transform: translateY(-1251px);
 }
 .stripethird h2{
   background-color: white;
@@ -129,17 +129,17 @@ img  {
   width: 770px;
 }
 .thirdimg {
-  transform: translateY(-1420px);
+  transform: translateY(-1461px);
 }
 /* третий совет*/
 .fourthadv p {
-  transform: translateY(-1420px);
+  transform: translateY(-1461px);
 }
 .stripefourth {
   background-color: white;
   width: 800px;
   height: 50px;
-  transform: translateY(-1423px);
+  transform: translateY(-1464px);
 }
 .stripefourth h2{
   background-color: white;
@@ -147,14 +147,14 @@ img  {
   width: 770px;
 }
 .fourthimg {
-  transform: translateY(-1553px);
+  transform: translateY(-1594px);
 }
 /* четвертый совет */
 .stripefifth {
   background-color: white;
   width: 800px;
   height: 50px;
-  transform: translateY(-1556px);
+  transform: translateY(-1597px);
 }
 .stripefifth h2{
   background-color: white;
@@ -162,9 +162,189 @@ img  {
   width: 770px;
 }
 .fifthadv p {
-  transform: translateY(-1556px);
+  transform: translateY(-1597px);
 }
 .fifthimg {
-  transform: translateY(-1766px);
+  transform: translateY(-1807px);
 }
 /* пятый совет */
+.progfirst h1 {
+  width: 1100px;
+  transform: translateY(-1768px);
+}
+.firstprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 5923px;
+}
+.progstripefirst {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 5923px;
+}
+.progstripefirst h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progfirst p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 5975px;
+}
+/* первая программа */
+.secondprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 6372px;
+}
+.progstripesecond {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 6372px;
+}
+.progstripesecond h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progsecond p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 6427px;
+}
+/* вторая программа */
+.thirdprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 6821px;
+}
+.progstripethird {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 6821px;
+}
+.progstripethird h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progthird p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 6873px;
+}
+/* третья программа */
+.fourthprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 7273px;
+}
+.progstripefourth {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 7273px;
+}
+.progstripefourth h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progfourth p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 7325px;
+}
+/* четвёртая программа */
+.fifthprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 7725px;
+}
+.progstripefifth {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 7725px;
+}
+.progstripefifth h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progfifth p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 7777px;
+}
+/* пятая программа */
+.sixthprog {
+  position: absolute;
+  width: 406px;
+  height: 396px;
+  left: 29px;
+  top: 8177px;
+}
+.progstripesixth {
+  background-color: white;
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 476px;
+  top: 8177px;
+}
+.progstripesixth h2 {
+  color: #003161;
+  position: absolute;
+  left: -15px;
+}
+.progsixth p {
+  position: absolute;
+  width: 858px;
+  height: 50px;
+  left: 458px;
+  top: 8229px;
+}
+/* шестая программа */
+.concl p {
+position: absolute;
+width: 1324px;
+height: 194px;
+top: 8650px;
+left: 6px;
+}
+/* заключеие */
