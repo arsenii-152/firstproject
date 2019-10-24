@@ -2,31 +2,30 @@
 @import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">);
-
+/* шрифты */
 body {
-      background-color: #003161;
-      width: 1440px;
-      height: 8789px;
+        background-color: #003161;
+        width: 1440px;
+        height: 8789px;
       }
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 72px;
-    margin-bottom: 40px;
-    color: #003161;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 72px;
+      margin-bottom: 40px;
+      color: #003161;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
     }
 h2{
-  white-space: pre-line;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 36px;
-  width: 50%;
-  line-height: 50px;
-  margin-left: 20px;
-
-}
+    white-space: pre-line;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 36px;
+    width: 50%;
+    line-height: 50px;
+    margin-left: 20px;
+  }
 p {
     color: #fff;
     font-family: 'PT Sans', sans-serif;
@@ -35,7 +34,7 @@ p {
     line-height: 40px;
   }
 p, h1 {
-  margin-left: 20px;
+        margin-left: 20px;
        }
 img  {
         position: relative;
@@ -44,17 +43,17 @@ img  {
       }
 /*общие настройки для тегов*/
 .stp h1 {
-    white-space: pre-line;
-    transform: translateY(-50px);
-    }
+          white-space: pre-line;
+          transform: translateY(-50px);
+        }
 .stp p {
-    transform: translateY(-50px);
-    }
+        transform: translateY(-50px);
+        }
 .spp {
       color: #003161;
       -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: white;
-    }
+      }
 .spps {
         color: white;
       }
@@ -176,7 +175,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 22px;
   top: 5923px;
 }
 .progstripefirst {
@@ -184,7 +183,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 5923px;
 }
 .progstripefirst h2 {
@@ -196,7 +195,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 5975px;
 }
 /* первая программа */
@@ -204,7 +203,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 21px;
   top: 6372px;
 }
 .progstripesecond {
@@ -212,7 +211,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 6372px;
 }
 .progstripesecond h2 {
@@ -224,7 +223,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 6427px;
 }
 /* вторая программа */
@@ -232,7 +231,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 22px;
   top: 6821px;
 }
 .progstripethird {
@@ -240,7 +239,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 6821px;
 }
 .progstripethird h2 {
@@ -252,7 +251,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 6873px;
 }
 /* третья программа */
@@ -260,7 +259,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 22px;
   top: 7273px;
 }
 .progstripefourth {
@@ -268,7 +267,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 7273px;
 }
 .progstripefourth h2 {
@@ -280,7 +279,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 7325px;
 }
 /* четвёртая программа */
@@ -288,7 +287,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 22px;
   top: 7725px;
 }
 .progstripefifth {
@@ -296,7 +295,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 7725px;
 }
 .progstripefifth h2 {
@@ -308,7 +307,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 7777px;
 }
 /* пятая программа */
@@ -316,7 +315,7 @@ img  {
   position: absolute;
   width: 406px;
   height: 396px;
-  left: 29px;
+  left: 22px;
   top: 8177px;
 }
 .progstripesixth {
@@ -324,7 +323,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 476px;
+  left: 469px;
   top: 8177px;
 }
 .progstripesixth h2 {
@@ -336,7 +335,7 @@ img  {
   position: absolute;
   width: 858px;
   height: 50px;
-  left: 458px;
+  left: 451px;
   top: 8229px;
 }
 /* шестая программа */
@@ -345,6 +344,6 @@ position: absolute;
 width: 1324px;
 height: 194px;
 top: 8650px;
-left: 6px;
+left: -1px;
 }
 /* заключеие */
