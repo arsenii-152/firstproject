@@ -2,36 +2,169 @@
 @import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">);
-body {
-  background-color: #003161;
-  }
 
+body {
+      background-color: #003161;
+      }
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    margin-bottom: 40px;
+    color: #003161;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    }
+h2{
   white-space: pre-line;
-  margin-top: -70px;
-  margin-bottom: 40px;
-}
-.spp {
-  color: #003161;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
-}
-.spps {
+  font-family: 'Montserrat', sans-serif;
   color: white;
-}
-p {
-  color: #fff;
-  font-family: 'PT Sans', sans-serif;
   font-size: 36px;
   width: 50%;
   line-height: 50px;
+  margin-left: 20px;
+
 }
+p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    width: 50%;
+    line-height: 40px;
+  }
+p, h1 {
+  margin-left: 20px;
+       }
 img  {
-  position: relative;
-  left: 790px;
-  bottom: 542px;
-  width: 50%;
+        position: relative;
+        left: 790px;
+        width: 50%;
+      }
+/*общие настройки для тегов*/
+.stp h1 {
+    white-space: pre-line;
+    transform: translateY(-50px);
+    }
+.stp p {
+    transform: translateY(-50px);
+    }
+.spp {
+      color: #003161;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+.spps {
+        color: white;
+      }
+.pct {
+  transform: translateY(-560px);
 }
+/*первая (основная (класс stp)) страница*/
+.firstadv h1  {
+  transform: translateY(-521px);
+}
+
+.firstadv p {
+  transform: translateY(-523px);
+}
+
+.firstadv img {
+  transform: translateY(-783px);
+}
+.stripefirst {
+  background-color: white;
+  width: 800px;
+  height: 100px;
+  transform: translateY(-523px);
+}
+.stripefirst h2 {
+  color: #003161;
+  display: block;
+  margin: 0;
+  width: 610px;
+  height: 100px;
+  transform: translateY(-53px);
+  padding-left: 20px;
+
+}
+/* заголовок страницы с советыми и первый совет*/
+.secondadv {
+  transform: translateY(-996px);
+}
+.secondadv h2 {
+  background-color: white;
+  color: #003161;
+  width: 770px;
+  display: inline-block;
+
+}
+.stripesecond {
+  background-color: white;
+  width: 610px;
+  transform: translateY(-210px);
+}
+.secondimg {
+  transform: translateY(-630px);
+}
+.secondadv p {
+  transform: translateY(-210px);
+}
+.secondadv {
+  transform: translateY(-576px);
+}
+/* второй совет*/
+
+.thirdadv p {
+  transform: translateY(-1207px);
+}
+.stripethird {
+  background-color: white;
+  width: 800px;
+  height: 50px;
+  transform: translateY(-1210px);
+}
+.stripethird h2{
+  background-color: white;
+  color: #003161;
+  width: 770px;
+}
+.thirdimg {
+  transform: translateY(-1420px);
+}
+/* третий совет*/
+.fourthadv p {
+  transform: translateY(-1420px);
+}
+.stripefourth {
+  background-color: white;
+  width: 800px;
+  height: 50px;
+  transform: translateY(-1423px);
+}
+.stripefourth h2{
+  background-color: white;
+  color: #003161;
+  width: 770px;
+}
+.fourthimg {
+  transform: translateY(-1553px);
+}
+/* четвертый совет */
+.stripefifth {
+  background-color: white;
+  width: 800px;
+  height: 50px;
+  transform: translateY(-1556px);
+}
+.stripefifth h2{
+  background-color: white;
+  color: #003161;
+  width: 770px;
+}
+.fifthadv p {
+  transform: translateY(-1556px);
+}
+.fifthimg {
+  transform: translateY(-1766px);
+}
+/* пятый совет */
